@@ -1,0 +1,64 @@
+
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Antarktis.jpg);background-size: auto;background-position: center;
+  }
+  
+
+  header {
+    background-color:rgba(0, 0, 0, 0.5) ;
+    padding: 1em;
+    text-align: center;
+    font-size: 70px;
+    color: azure;
+  }
+  
+ 
+  nav {
+    float: left;
+    width: 10%;
+    height: 300px; 
+    background:rgba(49, 48, 48, 0.514) ;
+    padding: 20px;
+  }
+  
+
+  nav ul {
+    list-style-type: none;
+    padding: 1em;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    color: azure;
+    height: 300px; 
+  }
+  
+ 
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  footer {
+    background-color: #25252542;
+    padding: 1em;
+    text-align: center;
+    color: white;
+  }
+  a:link{
+    color: aqua;}
+    a:visited{ 
+        color: aquamarine;
+    }
+    a:focus{color: blue;}
+    a:hover{color: darkred;}
+    a:active{color: cyan;}
+  
+ 
+  
